@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.hero {
+  position: relative;
+  background: #f0f0f0;
+  padding: 4rem 0;
+}
+.hero::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("../assets/wave.svg") no-repeat bottom;
+  background-size: cover;
+}
+.decorative-circle {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 100px;
+  height: 100px;
+  background: url("../assets/decorative-circles.svg");
+}
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem;
+}
+.status-open {
+  background: #4caf50;
+  color: white;
+}
+.status-in_progress {
+  background: #ffc107;
+  color: black;
+}
+.status-closed {
+  background: #9e9e9e;
+  color: white;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: white;
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 0.5rem;
+  } /* Stack layouts */
+}
+@media (min-width: 769px) {
+  /* Grid layouts */
+}
