@@ -2,6 +2,10 @@
 
 A modern ticket management web application built with React, Vite, and Tailwind CSS.
 
+# Live URL
+
+https://hng-stage-2-react-version.vercel.app/
+
 ## Features
 
 - 🎨 Modern UI with wavy hero section and decorative elements
