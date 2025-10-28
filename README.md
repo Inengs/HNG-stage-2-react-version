@@ -192,18 +192,3 @@ All errors display user-friendly messages via:
 ## Known Issues
 
 None at this time.
-
-## Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## License
-
-MIT
-
-## Support
-
-For issues or questions, please contact the development team.
